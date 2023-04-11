@@ -1,0 +1,10 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
