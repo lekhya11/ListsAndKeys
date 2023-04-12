@@ -8,8 +8,8 @@ const DisplayingDetails = props => {
     <li className="main-container">
       <img className="image" src={imageUrl} alt={name} />
       <div>
-        <h1>{name}</h1>
-        <p>{role}</p>
+        <h1 className="heading">{name}</h1>
+        <p className="para">{role}</p>
       </div>
     </li>
   )
